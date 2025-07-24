@@ -2,22 +2,22 @@
 
 A complete **Banking Application** built using **Spring Boot**, **Spring Cloud**, and **Microservices Architecture**, designed for fresher-level Java developers to demonstrate real-world skills.
 
-> 🧠 Ideal for resumes, interviews (e.g., Zeta), and hands-on practice with cloud-native applications.
+> Ideal for resumes, interviews (e.g., Zeta), and hands-on practice with cloud-native applications.
 
 ---
 
-## 📌 Features
+## Features
 
-- 🔐 User registration and authentication
-- 🏦 Account creation and balance inquiry
-- 💸 Transaction management (credit/debit)
-- 📬 Notification system (mock email/SMS)
-- 🧭 API Gateway for routing
-- 📡 Eureka-based Service Discovery
+-  User registration and authentication
+-  Account creation and balance inquiry
+-  Transaction management (credit/debit)
+-  Notification system (mock email/SMS)
+-  API Gateway for routing
+-  Eureka-based Service Discovery
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙ Tech Stack
 
 | Layer              | Tools/Tech                                       |
 |--------------------|--------------------------------------------------|
@@ -31,7 +31,7 @@ A complete **Banking Application** built using **Spring Boot**, **Spring Cloud**
 
 ---
 
-## 🧩 Microservices Breakdown
+##  Microservices Breakdown
 
 | Service             | Port  | Description                                |
 |---------------------|-------|--------------------------------------------|
@@ -44,7 +44,7 @@ A complete **Banking Application** built using **Spring Boot**, **Spring Cloud**
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```bash
 smart-banking-system/
