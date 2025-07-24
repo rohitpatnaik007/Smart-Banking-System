@@ -1,0 +1,36 @@
+# Placeholder for docker-compose.yml
+// docker-compose.yml (simplified)
+version: '3'
+services:
+  eureka:
+    image: eurekaserver:latest
+    ports:
+      - "8761:8761"
+
+  user-service:
+    build: ./user-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - eureka
+
+  account-service:
+    build: ./account-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eureka
+
+  transaction-service:
+    build: ./transaction-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka
+
+  gateway:
+    build: ./api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka
